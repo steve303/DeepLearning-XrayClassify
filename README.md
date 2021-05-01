@@ -4,11 +4,13 @@ Chest X-ray classification using the CheXpert dataset as part of the final paper
 
 ## Data
 The data is found in the `/images/` file.
+
 Data was obtained from the [CheXpert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/) based on the paper [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031). 
 The code uses the `test.csv` and `train.csv` files to pull the images, so these files can be modified and restricted to the available images for training/testing. 
 
 ## Models
 The models are found in the `/Models/` file.
+
 - Binary Simple CNN: `Pneumonia_SimpleCNN.ipynb`
 - Binary Extended CNN: `Pneumonia_ExtendedCNN.ipynb`
 - Binary ResNet18: `Pneumonia_ResNet.ipynb`
