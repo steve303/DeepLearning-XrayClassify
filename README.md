@@ -3,10 +3,12 @@ Chest X-ray classification using the CheXpert dataset as part of the final paper
 
 
 ## Data
-Example data and structure is found in the `/images/` file - this is a drastically reduced dataset from the original CheXpert dataset, to be used to validate only that the provided code runs. 
+Example data and structure is found in the `/images/` file - this is a drastically reduced dataset from the original CheXpert dataset, to be used to *validate only that the provided code runs (specifically the below csvs will work for the multi-label simple CNN/ResNet/DenseNet models).*
+- `/images/restricted_example_train.csv` - csv limited to 64 patients with corresponding images available in the `/images/CheXpert-v.10-small/train` folder
+- `/images/restricted_example_valid.csv` - csv limited to 50 patients with corresponding images available in the `/images/CheXpert-v1.0-small/valid` folder
 
 Data was obtained from the [CheXpert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/) based on the paper [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031). 
-The code uses the `test.csv` and `train.csv` files to pull the images, so these files can be modified and restricted to the available images for training/testing. 
+The code uses the `test.csv` and `valid.csv` files to pull the images, so these files can be modified and restricted to the available images for training/testing. 
 
 ## Models
 The models are found in the `/Models/` file.
