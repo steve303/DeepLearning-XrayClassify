@@ -3,7 +3,7 @@ Chest X-ray classification using the CheXpert dataset as part of the final paper
 
 
 ## Data
-The data is found in the `/images/` file.
+Example data and structure is found in the `/images/` file - this is a drastically reduced dataset from the original CheXpert dataset, to be used to validate the provided code runs only. 
 
 Data was obtained from the [CheXpert Dataset](https://stanfordmlgroup.github.io/competitions/chexpert/) based on the paper [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031). 
 The code uses the `test.csv` and `train.csv` files to pull the images, so these files can be modified and restricted to the available images for training/testing. 
