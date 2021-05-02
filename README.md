@@ -13,7 +13,7 @@ Data was obtained from the [CheXpert Dataset](https://stanfordmlgroup.github.io/
 The code uses the `test.csv` and `valid.csv` files to pull the images, so these files can be modified and restricted to the available images for training/testing. 
 
 ## Models
-The models are found in the `/Models/` file.
+The model building code is found in the `/Models/` file.
 
 - Binary Simple CNN: `Pneumonia_SimpleCNN.ipynb`
 - Binary Extended CNN: `Pneumonia_ExtendedCNN.ipynb`
