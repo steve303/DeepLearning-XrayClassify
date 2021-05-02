@@ -2,7 +2,8 @@
 Chest X-ray classification using the CheXpert dataset as part of the final paper for CS598 Deep Learning for Healthcare
 
 ## Paper
-The full paper can be found in `BinaryAndMultiLabelChestXRayClassification.pdf`
+The full paper can be found in `CS 598 DL4H Paper - Chest X-Ray Disease Diagnosis Model Comparison - PWSSAR.pdf`
+A summary of the paper can be found in the `CS 598 DL4H Powerpoint - PWSSAR.pptx` file
 
 ## Data
 Example data and structure is found in the `/images/` file - this is a drastically reduced dataset from the original CheXpert dataset, to be used to *validate only that the provided code runs (specifically the below csvs will work for the multi-label simple CNN/ResNet/DenseNet models).*
