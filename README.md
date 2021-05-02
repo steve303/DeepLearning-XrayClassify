@@ -32,3 +32,6 @@ IMG_PATH =  #input your image path here
 TRAIN_CSV = #input your train.csv file path here
 VALID_CSV = #input your valid.csv file path here
 ```
+
+## Contributions
+Contribution breakdown can be found in `Contributions.txt`
